@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
     //Calculando o IMC
-   //DeclaraÁ„o de vari·veis
+   //Declara√ß√£o de vari√°veis
     real imc, peso, altura
 
    escreva("Calculadora de IMC\n")
@@ -11,18 +11,18 @@ programa {
    leia(altura)
 
    //Calculando e Exibindo resultado final 
-   imc = (peso / (altura * altura))
+   imc = (peso / (altura * altura)
      escreva("Seu IMC calculado foi= ", imc)
      
-   //Estrutura de decis„o
+   //Estrutura de decis√£o
    se(imc <=18.5){
-    escreva("\nVocÍ est· abaixo do peso.")
+    escreva("\nVoc√™ est√° abaixo do peso.")
    } senao se(imc <=25){
-    escreva("\nVocÍ est· com o peso normal.")
+    escreva("\nVoc√™ est√° com o peso normal.")
    } senao se(imc <=35){
-    escreva("\nVocÍ est· com sobrepeso.")
+    escreva("\nVoc√™ est√° com sobrepeso.")
    }senao {
-    escreva("\nVocÍ est· com obesidade.")
+    escreva("\nVoc√™ est√° com obesidade.")
    }
 
   }
